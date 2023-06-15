@@ -13,7 +13,7 @@
 <h3 align="left">NYS Incarcerated Persons Webscraper</h3>
 
   <p align="left">
-    The <b><i>NYS Incarcerated Persons Webscraper</i></b> crawls for information based on a list of Department ID Numbers (DIN). It retrieves <i>name</i>, <i>status</i>, <i>facility</i>, and more.
+    The <b><i>NYS Incarcerated Persons Webscraper</i></b> crawls for information based on Department ID Numbers (DIN). It retrieves <i>name</i>, <i>status</i>, <i>facility</i>, and more.
     <br />
     <br />
   </p>
@@ -43,6 +43,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+Via New York State's Department of Corrections and Community Supervision search portal, the scraper searches for current or formerly incarcerated individuals based on DIN.
+
 <div align="center">
   <a href="https://nysdoccslookup.doccs.ny.gov/">
     <img src="src/media/search.png" alt="search">
@@ -52,7 +54,6 @@
   </a>
 </div>
 
-Via New York State's Department of Corrections and Community Supervision search portal, we search for current or formerly incarcerated individuals.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
