@@ -13,7 +13,7 @@
 <h3 align="left">NYS Incarcerated Persons Webscraper</h3>
 
   <p align="left">
-    The <b><i>NYS Incarcerated Persons Webscraper</i></b> crawls for information based on a list of Department ID Numbers (DIN). It retrieves <i>name</i>, <i>status</i>, and <i>facility</i>, if applicable.
+    The <b><i>NYS Incarcerated Persons Webscraper</i></b> crawls for information based on a list of Department ID Numbers (DIN). It retrieves <i>name</i>, <i>status</i>, <i>facility</i>, and more.
     <br />
     <br />
   </p>
@@ -45,10 +45,10 @@
 
 <div align="center">
   <a href="https://nysdoccslookup.doccs.ny.gov/">
-    <img src="src/media/search.jpg" alt="search">
+    <img src="src/media/search.png" alt="search">
   </a>
   <a href="https://nysdoccslookup.doccs.ny.gov/">
-    <img src="src/media/search_result.jpg" alt="search_result">
+    <img src="src/media/search_result.png" alt="search_result">
   </a>
 </div>
 
