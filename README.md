@@ -45,10 +45,10 @@
 
 <div align="center">
   <a href="https://nysdoccslookup.doccs.ny.gov/">
-    <img src="src/media/media/search.jpg" alt="search">
+    <img src="src/media/search.jpg" alt="search">
   </a>
   <a href="https://nysdoccslookup.doccs.ny.gov/">
-    <img src="src/media/media/search_result.jpg" alt="search_result">
+    <img src="src/media/search_result.jpg" alt="search_result">
   </a>
 </div>
 
@@ -83,7 +83,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Dave Russell - [@data_dave_dr](https://twitter.com/data_dave_dr) - dev@tappanresearch.com
+Dave Russell - [@data_dave_dr](https://twitter.com/data_dave_dr) - davidjeffreyrussell@gmail.com
 
 Project Link: [https://github.com/drussel4/NYS-Incarcerated-Scraper](https://github.com/drussel4/NYS-Incarcerated-Scraper)
 
