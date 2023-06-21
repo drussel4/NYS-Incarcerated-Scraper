@@ -6,7 +6,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/drussel4/NYS-Incarcerated-Scraper">
-    <img src="src/media/nys.png" alt="Logo">
+    <img src="src/media/finEQUITY_logo.png" alt="finEQUITY Logo">
+    <img src="src/media/nys.png" alt="New York State Logo">
     <!-- width="80" height="80" -->
   </a>
 
