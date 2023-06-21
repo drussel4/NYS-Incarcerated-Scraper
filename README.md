@@ -48,6 +48,9 @@
 
 Via New York State's Department of Corrections and Community Supervision search portal, the scraper searches for current or formerly incarcerated individuals based on DIN.
 
+To learn more about finEQUITY's mission supporting communities impacted by incarceration, please visit [https://www.finequity.org/](https://www.finequity.org/).
+
+
 <div align="center">
   <a href="https://nysdoccslookup.doccs.ny.gov/">
     <img src="src/media/search.png" alt="search">
