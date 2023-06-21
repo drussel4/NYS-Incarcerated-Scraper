@@ -6,19 +6,12 @@
 <br />
 
 <div align="center">
-  <img src="src/media/finEQUITY_logo.png" alt="finEQUITY Logo" width="45%">
-  &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="src/media/nys.png" alt="New York State Logo" width="45%">
-</div>
-<!-- 
-<div align="center">
   <a href="https://github.com/drussel4/NYS-Incarcerated-Scraper">
-    <img src="src/media/finEQUITY_logo.png" alt="finEQUITY Logo">
-    <img src="src/media/nys.png" alt="New York State Logo">
-    <!-- width="80" height="80" -->
-  </a> -->
-
-
+    <img src="src/media/finEQUITY_logo.png" alt="finEQUITY Logo" width="45%">
+    &nbsp; &nbsp; &nbsp; &nbsp;
+    <img src="src/media/nys.png" alt="New York State Logo" width="45%">
+  </a>
+</div>
 
 <h3 align="left">NYS Incarcerated Persons Webscraper</h3>
 
