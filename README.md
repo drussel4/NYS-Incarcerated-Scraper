@@ -13,7 +13,7 @@
 <h3 align="left">NYS Incarcerated Persons Webscraper</h3>
 
   <p align="left">
-    The <b><i>NYS Incarcerated Persons Webscraper</i></b> crawls for information based on Department ID Numbers (DIN). It retrieves <i>name</i>, <i>status</i>, <i>facility</i>, and more.
+    The <b><i>NYS Incarcerated Persons Webscraper</i></b> crawls for information based on Department ID Numbers (DIN). It retrieves <i>name</i>, <i>status</i>, <i>facility</i>, and more. It compares these fields to the databased records in Airtable, and updates any that are stale.
     <br />
     <br />
   </p>
@@ -64,6 +64,7 @@ Via New York State's Department of Corrections and Community Supervision search 
 
 * [Python](https://www.python.org/)
 * [Selenium](https://selenium-python.readthedocs.io/)
+* [Airtable API](https://airtable.com/developers/web/api/introduction)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>

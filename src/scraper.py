@@ -1,4 +1,3 @@
-# Import packages
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -12,13 +11,7 @@ DRIVER_PATH = '.\driver\chromedriver.exe'
 service = Service(executable_path=DRIVER_PATH)
 driver = webdriver.Chrome(service=service)
 
-dins = [
-    '97A5705',
-    '16A4309',
-    '10A2667',
-    ]
-
-def test_function(dins):
+def scrape(dins):
 
     website = 'https://nysdoccslookup.doccs.ny.gov/'
     xpaths = {
@@ -50,4 +43,10 @@ def test_function(dins):
     with open('results.json', 'w') as fp:
         json.dump(results, fp, default=str)
 
-test_function(dins)
+dins = [
+    '97A5705',
+    '16A4309',
+    '10A2667',
+    ]
+
+# scrape(dins)
