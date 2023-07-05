@@ -1,0 +1,33 @@
+name: Send NY incarcerated scraper results to Airtable
+
+on:
+  schedule:
+    - cron: "0 9 1 * *"
+# on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # TODO: freeze this so chrome doesn't update and break everything (22.04.2)
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Build and test
+        run: |
+          python --version
+          pip install -r requirements.txt
+      - name: Run scraper
+        env:
+          AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+          AIRTABLE_ACCESS_TOKEN: ${{ secrets.AIRTABLE_ACCESS_TOKEN }}
+          AIRTABLE_READ_ID: ${{ secrets.AIRTABLE_READ_ID }}
+          AIRTABLE_WRITE_ID: ${{ secrets.AIRTABLE_WRITE_ID }}
+          GOOGLE_APP_CREDENTIALS_JSON: ${{ secrets.GOOGLE_APP_CREDENTIALS_JSON }}
+          GSHEET_ID: ${{ secrets.GSHEET_ID }}
+          EMAIL_ACCOUNT: ${{ secrets.EMAIL_ACCOUNT }}
+          GMAIL_SMTP_APP_PASSWORD: ${{ secrets.GMAIL_SMTP_APP_PASSWORD }}
+        run: |
+          python src/job.py
+      # - name: Test results
+      #   run: |
+      #     echo "Results:"
+      #     cat results.json
