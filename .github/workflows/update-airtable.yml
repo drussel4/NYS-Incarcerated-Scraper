@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest # TODO: freeze this so chrome doesn't update and break everything (22.04.2)
+    runs-on: ubuntu-22.04 # TODO: freeze this so chrome doesn't update and break everything (22.04.2)
     steps:
       - name: Checkout code
         uses: actions/checkout@v2

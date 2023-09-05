@@ -10,7 +10,8 @@ options = webdriver.ChromeOptions()
 # if os.environ.get('CI', False):
 options.add_argument('--headless=new')
 options.add_argument('--start-maximized')
-driver = webdriver.Chrome(options=options, service=ChromeService(ChromeDriverManager().install()))
+chrome_version = '116.0.5845.96'
+driver = webdriver.Chrome(service=ChromeService(version=chrome_version), options=options)
 
 def scrape(dins):
     
@@ -130,5 +131,3 @@ def facilities_scrape():
     print('Completed facilities_scrape(), fetched data for {} facilities'.format(len(facilities_dict.keys())))
 
     return facilities_dict
-
-# facilities_scrape()
